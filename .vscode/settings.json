@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "unistd.h": "c",
+        "cstdlib": "cpp",
+        "kirbytext.h": "c",
+        "terminal.h": "c",
+        "types.h": "c"
+    }
+}
