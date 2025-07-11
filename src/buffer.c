@@ -5,12 +5,10 @@
 
 
 /// @brief Append buffer structure
-/// @details  - b : buffer
-///           - len : length of the buffer
 /// @note  This structure is used to store the buffer and its length
-/// @param ab 
-/// @param s 
-/// @param len 
+/// @param ab used to store the buffer and its length
+/// @param s used to store the string to append
+/// @param len used to store the length of the string to append
 void abAppend(struct abuf *ab, const char *s, int len)
 {
     char *new = realloc(ab->b, ab->len + len);
